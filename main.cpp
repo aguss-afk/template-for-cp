@@ -6,6 +6,7 @@
 #define f1(i, x) for(auto &i : x)
 #define f2(i, x) for(ll i = 0; i < x; i++)
 #define raya() cout << endl << "====================================" << endl
+#define dbg(x) cerr << #x << ": " << x << endl;
 using namespace std;
 typedef long long ll;
 void solve(){
