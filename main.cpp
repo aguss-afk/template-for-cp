@@ -7,7 +7,7 @@
 #define f2(i, x, j) for(ll i = j; i < x; i++)
 #define raya() cout << endl << "====================================" << endl
 #define dbg(x) cerr << #x << ": " << x << endl;
-#define inf LLONG_MAX
+#define INF LLONG_MAX
 using namespace std;
 typedef long long ll;
 void solve(){
