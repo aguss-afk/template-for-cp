@@ -1,31 +1,24 @@
 #include <bits/stdc++.h>
 
-#define _USE_MATH_DEFINES
-#define INF LLONG_MAX
-#define MOD 1000000007
-
-#define endl "\n"
-#define sp " "
-
 #define all(x) x.begin(), x.end()
 #define rall(x) x.rbegin(), x.rend()
 
-#define f1(i, x) for(auto &i : x)
-#define f2(i, x, j) for(ll i = j; i < x; i++)
-
-#define raya() cout << endl << "====================================" << endl
-#define dbg(x) cerr << #x << ": " << x << endl;
+#define dbg(x) cerr << #x << ": " << x << '\n';
+#define dbgv(v) cerr << #v << ": "; for(auto &el : v) cerr << el << " "; cerr << '\n';
 
 using namespace std;
 using ll = long long;
+
+const ll MOD = 1e9 + 7;
+const ll INF = 1e18 + 5;
 
 void solve(){
     
 }
 int main(){
-    ios::sync_with_stdio(0);
-    cin.tie(0);
-    cout.tie(0);
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.tie(nullptr);
     int t;
     cin >> t;
     while(t--){
